@@ -1,0 +1,18 @@
+Your organization has started a new tech blog with interesting tech stories and you’re responsible for designing and implementing an in-memory search engine, supporting the search functionality on the blog content. 
+
+Requirements:
+It should be possible to create a dataset in the search engine. 
+It should be possible to insert and delete documents in a given dataset. Each document is simply a piece of text.
+It should be possible to search through documents for a search pattern in a given dataset. 
+It should be possible to order the search results.
+
+
+Dataset:
+Doc1: “Cricket is being played”
+Doc2: “Some random text”
+Doc3: “India won the T20 Cricket World cup in 2024. India won the T20 Cricket World Cup after 17 years.” 
+
+Input:
+cricket
+Output: 
+[ Doc3, Doc1]
