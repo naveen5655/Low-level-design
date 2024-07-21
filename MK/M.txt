@@ -16,3 +16,10 @@ Input:
 cricket
 Output: 
 [ Doc3, Doc1]
+
+Explaination:
+Cricket world freq = 1 in Doc1
+Cricket world not exist in Doc2
+Cricket World freq = 2 in Doc3
+
+so, output by decreasing in freq order.
